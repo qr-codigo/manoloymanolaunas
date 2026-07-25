@@ -10,13 +10,6 @@ window.sr = ScrollReveal();
 
 	});
 
-
-
-
-
-
-
-
 sr.reveal('.nombres1', {
 		duration: 3000, //tiempo
 		delay: 1000,
@@ -185,3 +178,4 @@ $(document).ready(function () {
         $('#wrapper').toggleClass('toggled');
   });  
 });
+

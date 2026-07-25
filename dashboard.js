@@ -51,3 +51,12 @@
     }
   })
 })()
+
+
+
+//con este evento nos aseguramos que el DOM haya cargado antes de manipularlo
+document.addEventListener("DOMContentLoaded", (event) => {
+  const fecha = document.getElementById("fecha");
+  const now = new Date();
+  fecha.innerText = now.toLocaleDateString();
+});
